@@ -304,7 +304,7 @@ ul {
 	float: right;
 }
 .multi-para p {
-	margin-bottom: 25px;
+	margin-bottom: 15px;
 }
 .align-items-center {
 	align-items: center;
@@ -327,6 +327,7 @@ ul {
 	border-radius: 50px;
 	position: relative;
 	font-weight: 500;
+	border: 1px solid #7fbab8;
 }
 .primary-btn:hover {
 	border-color: #2792d6;
@@ -336,6 +337,7 @@ ul {
 .primary-btn:hover:before {
 	color: #2792d6;
 }
+
 .primary-title {
 	font-size: 28px;
 	line-height: 32px;
@@ -344,11 +346,21 @@ ul {
 
 .primary-btn.orange {
 	background: #f5ba7d;
+	border: 1px solid #f5ba7d;
 }
 .primary-btn.orange:hover {
 	background: #fff;
 	border: 1px solid #f5ba7d;
 	color: #f5ba7d !important;
+}
+.primary-btn.light-blue {
+	background: #5b6faa;
+	border: 1px solid #5b6faa;
+}
+.primary-btn.light-blue:hover {
+	background: #fff;
+	border: 1px solid #5b6faa;
+	color: #5b6faa !important;
 }
 
 /*home-page*/
@@ -377,7 +389,7 @@ ul {
 }
 .header-menu li a {
 	color: #ffffff;
-	padding: 6px 20px;
+	padding: 2px 20px;
 	border-radius: 8px;
 }
 .header-menu li a:hover {
@@ -616,6 +628,53 @@ ul {
 .blog-banner .article-item-inner h4, .blog-banner .article-item-inner h5 {
 	width: 100%;
 }
+/* places-section */
+.experts-left {
+	padding: 0 60px;
+}
+.slider-text-box {
+	padding: 0px 40px;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	justify-content: center;
+}
+.slider-box {
+	width: 350px;
+	height: 335px;
+	object-fit: cover;
+}
+.slider-box img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+/*testimonial-section*/
+.testi-container {
+	padding: 120px 200px;
+}
+.quote-mark {
+	font-weight: 600;
+	font-size: 25px;
+	color: #6d83b7;
+}
+.testimonial-section {
+	background-image: url(img/bg1.png), url(img/bg2.png);
+	background-position: -475px top, 1110px bottom;
+	background-repeat: no-repeat, no-repeat;
+}
+/*call-to-action-section*/
+.call-to-action-section {
+	background-image: url("img/cta-bg.jpg");
+	background-size: cover;
+}
+
+
+
+
+
 
 
 @media only screen and (max-width: 1199px) {

@@ -31,7 +31,7 @@
         });
 
 		// brands carousel
-		$('.feature-list-carousel').owlCarousel({
+		$('.places-slider').owlCarousel({
 			loop: true,
 			margin: 0,
 			nav: false,
@@ -45,27 +45,6 @@
 				0: {
 					items: 1
 				},
-				415: {
-					items: 1
-				},
-				480: {
-					items: 2
-				},
-				600: {
-					items: 3
-				},
-				767: {
-					items: 3
-				},
-				992: {
-					items: 3
-				},
-				1199: {
-					items: 3
-				},
-				2000: {
-					items: 3
-				}
 			}
 		});
 

@@ -670,8 +670,68 @@ ul {
 	background-image: url("img/cta-bg.jpg");
 	background-size: cover;
 }
-
-
+/*footer*/
+.footer {
+	background-image: url("img/footer-bg.png");
+	background-position: -190px top;
+}
+.sm-links-list {
+	display: flex;
+}
+.sm-link-item {
+	width: 60px;
+	height: 55px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 3px solid #5b6faa;
+	border-radius: 12px;
+	margin-right: 12px;
+	margin-bottom: 12px;
+}
+.sm-link-item i {
+	color: #5b6faa;
+	font-size: 35px;
+	line-height: 36px;
+}
+.sm-link-item:hover {
+	border-color: #7fbab8;
+}
+.contact-info-item {
+	display: flex;
+	align-items: center;
+	margin-bottom: 30px;
+}
+.contact-info-icon {
+	background: #7fbab8;
+	width: 50px;
+	height: 48px;
+	border-radius: 100px;
+	position: relative;
+	margin-right: 25px;
+}
+.contact-info-icon i {
+	color: #ffffff;
+	font-size: 25px;
+	position: absolute;
+	top: 52%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.contact-info-content a,.contact-info-content p {
+	font-weight: 700;
+	color: #6d83b7;
+}
+.contact-info-content a:hover {
+	 color: #7fbab8;
+ }
+.footer-logo {
+	padding-left: 30px;
+}
+.footer-right-content {
+	border-left: 5px solid #efab67;
+	padding: 10px 0 10px 30px;
+}
 
 
 

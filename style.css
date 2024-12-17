@@ -368,6 +368,15 @@ ul {
 	border: 1px solid #f5ba7d;
 	color: #f5ba7d !important;
 }
+.primary-btn.orange-2 {
+	background-color: #e88f3d;
+	border: 1px solid #e88f3d;
+}
+.primary-btn.orange-2:hover {
+	background: #fff;
+	border: 1px solid #e88f3d;
+	color: #e88f3d !important;
+}
 .primary-btn.light-blue {
 	background: #5b6faa;
 	border: 1px solid #5b6faa;
@@ -416,14 +425,14 @@ ul {
 /*intro-section*/
 .intro-section {
 	position: relative;
+	background-image: url("img/video-cover.png");
+	background-size: cover;
 }
 .intro-section img {
 	width: 100%;
 }
 .intro-inner {
-	position: absolute;
-	bottom: 230px;
-	width: 100%;
+	padding: 350px 0 200px;
 }
 .find-trip-container {
 	padding: 15px;
@@ -522,6 +531,11 @@ ul {
 	transform: translate(-50%, -50%);
 	width: 250px;
 	text-align: center;
+	transition: transform 0.6s ease, box-shadow 0.6s ease;
+}
+.video-inner:hover h4, .video-inner:hover img {
+	transform: scale(1.1);
+	transition: transform 0.6s ease;
 }
 .intro-video-center {
 	padding-left: 20px;
@@ -760,14 +774,8 @@ ul {
 /*service single page*/
 .service-hero-section {
 	position: relative;
-}
-.service-hero-section img {
-	width: 100%;
-}
-.service-inner {
-	position: absolute;
-	bottom: 130px;
-	width: 100%;
+	padding: 330px 0 140px;
+	background-size: cover;
 }
 .duration-price-container {
 	display: flex;
@@ -961,6 +969,88 @@ ul {
 .book-now-package-detail {
 	font-weight: 700;
 }
+
+/*itineraries*/
+.itineraries-section {
+	background-image: url("img/intro-bg.png");
+	background-position: top right;
+}
+
+/*about us*/
+.travel-experience-section {
+	background-image: url("img/intro-bg.png");
+	background-position: top right;
+}
+.travel-experience-left {
+	padding-right: 50px;
+}
+.why-choose-container {
+	padding: 70px 50px 30px;
+}
+.why-choose-box {
+	display: flex;
+	margin-bottom: 40px;
+}
+.why-choose-box-icon {
+	width: fit-content;
+	height: fit-content;
+}
+.why-choose-box-content {
+	padding: 0 20px 0 30px;
+}
+.why-choose-box-title {
+	font-size: 20px;
+}
+.commitment-left {
+	padding-right: 20px;
+}
+/*contact us*/
+.contact-form-section {
+	background-image: url("img/intro-bg.png");
+	background-position: top right;
+}
+.contact-vector {
+	padding: 40px 0 40px 100px;
+}
+.contact-info {
+	margin-bottom: 20px;
+}
+.contact-info a {
+	font-weight: 700;
+	/*text-underline: 1px solid #e88f3d;*/
+}
+.contact-info.phone a {
+	color: #e88f3d;
+}
+.contact-info.email a {
+	color: #2e4492;
+}
+.form-container {
+	padding: 50px 40px;
+	background-color: #7fbab8;
+}
+.form-group {
+	margin-bottom: 20px;
+}
+.form-group p {
+	margin-bottom: 8px;
+	color: #ffffff;
+}
+.form-group input {
+	height: 40px;
+	width: 100%;
+	border: 0;
+	border-radius: 10px;
+	font-size: 16px;
+}
+.form-group textarea {
+	height: 120px;
+	width: 100%;
+	border: 0;
+	border-radius: 10px;
+	font-size: 16px;
+}
+
 
 
 

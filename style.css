@@ -971,11 +971,13 @@ ul {
 }
 
 /*itineraries*/
-.itineraries-section {
-	background-image: url("img/intro-bg.png");
-	background-position: top right;
+.itineraries-des-section {
+	background-image: url("img/bg-itineraries-desc.png");
+	background-position: center right;
 }
-
+.itineraries-des-left {
+	padding-right: 30px;
+}
 /*about us*/
 .travel-experience-section {
 	background-image: url("img/intro-bg.png");

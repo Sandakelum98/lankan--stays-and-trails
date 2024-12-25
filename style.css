@@ -1064,6 +1064,153 @@ ul {
 	padding-left: 50px;
 }
 
+/*blog list*/
+.blog-list-section {
+	background-image: url("img/intro-bg.png");
+	background-position: top right;
+}
+.blog-list-item {
+	box-shadow: 0 0 20px 0px #00000047;
+	margin-bottom: 30px;
+}
+.blog-list-item-content {
+	padding: 25px 30px;
+	background-color: #ffffff;
+}
+.blog-list-item-content p {
+	font-size: 15px;
+	line-height: 30px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-bottom: 6px;
+}
+.blog-list-item-content h6 {
+	font-size: 22px;
+	line-height: 30px;
+	height: 65px;
+	margin-bottom: 8px;
+}
+.read-more-btn {
+	font-size: 16px;
+	padding-right: 18px;
+	position: relative;
+}
+.read-more-btn:after {
+	content: '\f105';
+	font-family: FontAwesome;
+	position: absolute;
+	/* color: #eda563; */
+	font-size: 20px;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 0;
+}
+/*blog post page*/
+.blog-padding-container {
+	padding: 0 120px;
+}
+.post-detail-item {
+	margin-bottom: 60px;
+}
+.post-detail-title {
+	margin-bottom: 15px;
+}
+
+.post-detail-desc p {
+	margin-bottom: 30px;
+}
+.post-detail-desc ul {
+	padding-top: 12px;
+}
+.post-detail-desc ul li {
+	padding-left: 25px;
+	position: relative;
+	margin-bottom: 7px;
+}
+.post-detail-desc ul {
+	margin-bottom: 30px;
+}
+.post-detail-desc ul li:before {
+	content: '\f111';
+	font-family: FontAwesome;
+	position: absolute;
+	 color: #efab67;
+	font-size: 13px;
+	top: 0;
+	left: 0;
+}
+.post-detail-img {
+	margin-top: 40px;
+}
+.post-detail-img img {
+	height: 450px;
+	width: 100%;
+	object-fit: cover;
+}
+.post-detail-desc h3 {
+	margin: 50px 0 30px;
+}
+/*travel information*/
+.travel-info-intro-section {
+	background-image: url(img/intro-bg.png);
+	background-position: top right;
+}
+.travel-info-padding-container {
+	padding: 0 150px;
+}
+.quick-facts-content {
+	background-color: #7fbab8;
+	padding: 80px 150px 70px;
+}
+.quick-facts-content p {
+	margin-bottom: 13px;
+}
+.travel-info-detail-item {
+	margin-bottom: 50px;
+}
+.icon-title-cont {
+	display: flex;
+	align-items: center;
+}
+.icon-title-cont h3 {
+	font-size: 22px;
+}
+.title-icon {
+	margin-right: 15px;
+}
+.travel-info-detail-content p {
+	margin-bottom: 15px;
+}
+/*things to do page*/
+.to-do-list-section {
+	background-image: url(img/intro-bg.png);
+	background-position: top right;
+}
+.to-do-item {
+	margin-bottom: 30px;
+}
+.to-do-item img {
+	width: 100%;
+	height: 350px;
+	object-fit: cover;
+}
+.to-do-content {
+	padding: 40px 30px;
+	border: 1px solid #cccccc;
+	background-color: #ffffff;
+}
+.to-do-title {
+	font-size: 22px;
+	line-height: 35px;
+	margin-bottom: 12px;
+}
+.to-do-desc {
+	margin-bottom: 25px;
+}
+.to-do-content li {
+	margin-bottom: 13px;
+}
+
 
 @media only screen and (max-width: 1199px) {
 }
@@ -1074,4 +1221,54 @@ ul {
 }
 
 @media only screen and (max-width:767px) {
+	.header .row {
+		flex-wrap: nowrap;
+	}
+	.intro-form-btn {
+		height: 50px;
+	}
+	.intro-video-left>img {
+		height: 250px;
+		width: 100%;
+	}
+	.intro-video-center {
+		padding: 60px 0px;
+		text-align: center;
+	}
+	.intro-video-right .icon-list {
+		display: flex;
+		justify-content: space-around;
+	}
+	.icon-list img {
+		margin-bottom: unset;
+	}
+	.itineraries-intro-box .underlined-title {
+		text-align: center !important;
+		width: fit-content;
+		margin: 0 auto 30px;
+	}
+	.itineraries-intro-box {
+		padding: 15px 10px 30px;
+	}
+	.itineraries-intro-box .view-more-btn {
+		margin-top: 30px;
+		float: none !important;
+	}
+	.itineraries-box>img {
+		width: 100%;
+	}
+	.itineraries-customize-box {
+		padding: 20px 45px 0;
+	}
+	.article-item {
+		height: 200px;
+	}
+	.article-item img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+	.blog-banner {
+		padding: 30px 120px 50px;
+	}
 }

@@ -708,6 +708,10 @@ ul {
 	background-image: url("img/cta-bg.jpg");
 	background-size: cover;
 }
+/*.instagram-post-section*/
+.instagram-post-section img {
+	width: 100%;
+}
 /*footer*/
 .footer {
 	background-image: url("img/footer-bg.png");
